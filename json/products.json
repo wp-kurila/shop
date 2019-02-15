@@ -1,0 +1,23 @@
+[
+    {
+        "id": 111,
+        "src": "img/asus.jpg",
+        "alt": "ASUS PRIME B250M-PLUS",
+        "name": "Материнския плата ASUS PRIME B250M-PLUS",
+        "price": 6200
+    },
+    {
+        "id": 112,
+        "src": "img/gigabyte.jpg",
+        "alt": "GIGABYTE GA-B250M-D3H",
+        "name": "Материнския плата GIGABYTE GA-B250M-D3H",
+        "price": 5500
+    },
+    {
+        "id": 113,
+        "src": "img/asrock.jpg",
+        "alt": "ASROCK B250 GAMING K4",
+        "name": "Материнския плата ASROCK B250 GAMING K4",
+        "price": 8000
+    }
+]
