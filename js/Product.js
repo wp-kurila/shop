@@ -43,9 +43,11 @@ class Product {
             class: 'btn btn-buy',
             text: 'В корзину',
             'data-id': product.id,
+            'data-src': product.src,
+            'data-alt': product.alt,
             'data-title': product.name,
             'data-price': product.price
-        });
+        });         
 
         // Структура
         $name.appendTo($desc);
