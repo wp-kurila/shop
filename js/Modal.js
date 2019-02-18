@@ -1,14 +1,11 @@
 class Modal {
     constructor (element) {
-        this.product = element;
-        this.src = null;
-        this.alt = null;
+        this.product = element;       
         this._on()
     }
     _on(){
         let $overlay = $('<div/>', {
-            class: 'overlay',
-            id: 'overlay'
+            class: 'overlay'           
         });
         let $block = $('<div/>', {
             class: 'popup'
@@ -19,6 +16,10 @@ class Modal {
             class: 'popup-img'
         });
         let $btnClose = $(`<button class="btn btn-close">&times;</button>`);
+        // let $btnClose = $('<div/>', {
+        //     class: 'btn btn-close',
+        //     text: '&times;'            
+        // })
 
         $btnClose.appendTo($block);
         $img.appendTo($block);   
@@ -28,12 +29,15 @@ class Modal {
 
         $btnClose.click(e => {
             this._off(e.target)
-        })       
+        }); 
+        
+        // $btnClose.click(e => {
+        //     this._off($(e.target).data('id'));
+        // });
     }
-    _off(element){
-        $(element).parent().parent().remove();
-        
-        
+    _off(button){
+        $(button).parent().parent().remove();        
+        // $($(overlay).data('id')).remove();
         
     }
 }

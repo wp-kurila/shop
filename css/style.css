@@ -2,9 +2,24 @@ body {
     margin: 0
 }
 
-h2 {
-    text-align: center;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
 }
+
+    .header h2 {
+        margin: 0 auto 0 auto;
+    }
+
+    .header div {
+        margin: 0 20px 0 0;
+    }
+    
+        .header div:hover {
+            cursor: pointer;
+        }
 
 .product {
     padding: 0 15vw;
@@ -89,4 +104,27 @@ h2 {
         right: 10px;
         font-size: 2.5rem;
         z-index: 1;
+    }
+
+.cart {
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #ffffff;
+    transform: translateX(100%);
+    transition: all 0.4s;
+}
+
+    .cart-active {
+        transform: translateX(0%);
+        transition: all 0.4s;
+    }
+
+    .cart .btn-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 25px;
     }

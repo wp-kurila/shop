@@ -57,7 +57,8 @@ class Product {
         $(this.container).append($container);
 
         //Модальное окно
-        $img.click(e => {            
+        $img.click(e => {
+            //console.log($(e.target).data('id'))
             let modal = new Modal(e.target);
         });
     }
