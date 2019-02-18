@@ -1,23 +1,44 @@
 [
     {
         "id": 111,
-        "src": "img/asus.jpg",
+        "src": "img/111.jpg",
         "alt": "ASUS PRIME B250M-PLUS",
         "name": "Материнския плата ASUS PRIME B250M-PLUS",
         "price": 6200
     },
     {
         "id": 112,
-        "src": "img/gigabyte.jpg",
+        "src": "img/112.jpg",
         "alt": "GIGABYTE GA-B250M-D3H",
         "name": "Материнския плата GIGABYTE GA-B250M-D3H",
         "price": 5500
     },
     {
         "id": 113,
-        "src": "img/asrock.jpg",
+        "src": "img/113.jpg",
         "alt": "ASROCK B250 GAMING K4",
         "name": "Материнския плата ASROCK B250 GAMING K4",
         "price": 8000
+    },
+    {
+        "id": 211,
+        "src": "img/211.jpg",
+        "alt": "INTEL Core i5 8100",
+        "name": "Процессор INTEL Core i3 8100",
+        "price": 10000
+    },
+    {
+        "id": 212,
+        "src": "img/212.jpg",
+        "alt": "INTEL Core i5 8400",
+        "name": "Процессор INTEL Core i5 8400",
+        "price": 17000
+    },
+    {
+        "id": 213,
+        "src": "img/213.jpg",
+        "alt": "INTEL Core i7 8700",
+        "name": "Процессор INTEL Core i7 8700",
+        "price": 25000
     }
 ]

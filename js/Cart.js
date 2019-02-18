@@ -20,7 +20,9 @@ class Cart {
         $cartItemsBlock.appendTo($(this.container));
         $totalCount.appendTo($(this.container));
         $totalPrice.appendTo($(this.container));
+        this._renderSum();
         this._init();
+        
     }
     _init(){
         fetch(this.source)
