@@ -84,7 +84,7 @@ class Cart {
             this.amount += product.product_price;
             this._renderProduct(product);
         };
-        this._renderSum();
+        this._renderSum();        
     }
     _updateCart(product){
         let $container = $(`div[data-product="${product.product_id}"`);
@@ -102,6 +102,6 @@ class Cart {
         }
         this.countGoods--;
         this.amount -= find.product_price;
-        this._renderSum();
-    }
+        this._renderSum();        
+    }    
 }
